@@ -1,0 +1,88 @@
+ul {
+  border: solid 2px #ffb03f;
+  padding: 0.5em;
+  position: relative;
+  margin-top: 2em;
+}
+ul li {
+  line-height: 1.5;
+  padding: 0.5em 0 0.5em 1.4em;
+  border-bottom: dashed 1px silver;
+  list-style-type: none!important;
+}
+ul li:last-of-type {
+  border-bottom: none;
+}
+ul li:before {
+  /*リスト内のアイコン*/
+  font-family: "Font Awesome";
+  content: "\f138";/*アイコン種類*/
+  position: absolute;
+  left : 0.5em; /*左端からのアイコンまで*/
+  color: #ffb03f; /*アイコン色*/
+}
+ul li:after {
+  /*タイトルタブ*/
+  background: #ffb03f;
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  left: -2px;
+  bottom: 100%;
+  padding: 1px 7px;
+  content: "ルール";/*タブの文字*/
+  letter-spacing: 0.05em;/*字間*/
+}
+
+
+.q{
+  padding: 1% 2%;
+  background-color: #FFCCFF;
+  border: 1% solid #FFCCFF;
+  color: #0000FF
+}
+
+.q:hover {
+  background-color: #FF8856;
+  border-color: #FF8856;
+  color: #0000FF;
+}
+
+.qButton{
+  padding: 1% 2%;
+  background-color: #FFCCFF;
+  border: 1% solid #FFCCFF;
+  color: #0000FF
+}
+
+.qButton:hover {
+  background-color: #FF8856;
+  border-color: #FF8856;
+  color: #0000FF;
+}
+
+
+<<<<<<< HEAD
+body
+{
+    background-image: linear-gradient(
+	-45deg,
+	#f5eeed 25%,
+	#f4e2de 25%,
+	#f4e2de 50%,
+	#f5eeed 50%,
+	#f5eeed 75%,
+	#f4e2de 75%,
+	#f4e2de
+);
+background-size: 40px 40px;
+background-attachment: fixed;
+    
+}
+=======
+/* body
+{
+    background-color: #FFFFCC
+    
+} */
+>>>>>>> 80e37375e9b54ac318ccc7af126d818d31949d16
